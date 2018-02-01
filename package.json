@@ -1,6 +1,6 @@
 {
   "name": "endpoint-testar",
-  "version": "0.1.0-beta",
+  "version": "0.1.0",
   "main": "src/endpoint-testar.js",
   "license": "MIT",
   "author": "Andrei Calazans",
