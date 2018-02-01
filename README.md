@@ -4,6 +4,11 @@
 Lightweight function helper to test the result of an endpoint against a type model.
 
 ## Usage:
+
+**Install**
+`yarn add enpoint-testar`
+
+
 ```javascript
 // @flow
 
@@ -38,3 +43,5 @@ const checkForErrors = () => endpointTestar(FetchResult, DataTypes); // ['age re
 TODO:
 - improve README.
 - improve performance.
+- Add flow types.
+
