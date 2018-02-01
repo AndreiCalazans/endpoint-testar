@@ -5,8 +5,8 @@ const result = require('./result');
 
 
 describe('Types', () => {
-  it('should exist 3 types', () => {
-    expect(Object.keys(types).length).toBe(3);
+  it('should exist 4 types', () => {
+    expect(Object.keys(types).length).toBe(4);
   })
 
   it('should return the correct type for each', () => {
@@ -34,6 +34,7 @@ describe('endpointTestar function', () => {
   describe('endpointTestar Error messages', () => {
     let localResp = {
       name: 'what ever',
+      isReady: false,
       age: '23',
       doc: [{
         number: 100,
@@ -41,6 +42,7 @@ describe('endpointTestar function', () => {
     };
     let localModel = {
       name: t.string,
+      isReady: t.boolean,
       age: t.number,
       doc: [{
         number: t.number,

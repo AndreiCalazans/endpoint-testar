@@ -5,4 +5,5 @@ module.exports = {
   string: () => f('string'),
   number: () => f('number'),
   function: () => f('function'),
+  boolean: () => f('boolean'),
 };
