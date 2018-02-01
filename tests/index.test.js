@@ -1,4 +1,4 @@
-const { endpointTestar, types } = require('../src/endpointTestar');
+const { endpointTestar, types } = require('../src/endpoint-testar');
 const t = types;
 const modelType = require('./model');
 const result = require('./result');

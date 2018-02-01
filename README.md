@@ -1,4 +1,4 @@
-# EndpointTestar
+# Endpoint-Testar
 *** 
 
 Lightweight function helper to test the result of an endpoint against a type model.
@@ -7,7 +7,7 @@ Lightweight function helper to test the result of an endpoint against a type mod
 ```javascript
 // @flow
 
-import { endpointTestar, types } from 'endpointTestar';
+import { endpointTestar, types } from 'endpoint-testar';
 const t = types;
 
 type EndpointTestar = (response: Object, dataType: Object, nullables?: Array<string>) => Array<string>;
