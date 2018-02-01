@@ -6,7 +6,7 @@ Lightweight function helper to test the result of an endpoint against a type mod
 ## Usage:
 
 **Install**
-`yarn add enpoint-testar`
+`yarn add endpoint-testar`
 
 
 ```javascript
